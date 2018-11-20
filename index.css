@@ -1,3 +1,14 @@
-.app {
-  
+body {
+	background: url("http://fermata.me/wp-content/uploads/karte-europa-europakarte-ohne-beschriftung-zum-ausdrucken.png");
+	background-size: cover;
+}
+
+main {
+  height: calc(100vh - 56px); /* Permet à la carte d'être au centre de l'écran. */
+}
+main[v-cloak] {
+  display: none !important; /* Permet de ne rien afficher avant la fin du chargement */
+}
+main .card {
+  width: 45rem;
 }
